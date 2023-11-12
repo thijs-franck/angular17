@@ -30,7 +30,9 @@
 				"bpruitt-goddard.mermaid-markdown-syntax-highlighting",
 				"esbenp.prettier-vscode",
 				"dbaeumer.vscode-eslint",
-				"GitHub.copilot"
+				"GitHub.copilot",
+				"Angular.ng-template",
+				"firsttris.vscode-jest-runner"
 			]
 		}
 	},

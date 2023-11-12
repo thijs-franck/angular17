@@ -1,8 +1,5 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "affected": {
-    "defaultBase": "master"
-  },
   "targetDefaults": {
     "build": {
       "cache": true,
@@ -55,7 +52,7 @@
       "style": "scss",
       "linter": "eslint",
       "unitTestRunner": "jest",
-      "e2eTestRunner": "cypress"
+      "e2eTestRunner": "playwright"
     },
     "@nx/angular:library": {
       "linter": "eslint",
@@ -64,6 +61,5 @@
     "@nx/angular:component": {
       "style": "scss"
     }
-  },
-  "defaultProject": "thijsfranck"
+  }
 }

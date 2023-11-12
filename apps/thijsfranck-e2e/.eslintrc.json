@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:cypress/recommended", "../.eslintrc.json"],
+  "extends": ["plugin:playwright/recommended", "../../.eslintrc.json"],
   "ignorePatterns": ["!**/*"],
   "overrides": [
     {
@@ -15,14 +15,8 @@
       "rules": {}
     },
     {
-      "files": ["*.cy.{ts,js,tsx,jsx}", "src/**/*.{ts,js,tsx,jsx}"],
-      "rules": {}
-    },
-    {
-      "files": ["*.js", "*.jsx"],
-      "extends": ["plugin:@nx/javascript"],
+      "files": ["src/**/*.{ts,js,tsx,jsx}"],
       "rules": {}
     }
-  ],
-  "plugins": ["@nx"]
+  ]
 }
